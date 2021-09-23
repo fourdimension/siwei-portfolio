@@ -11,12 +11,12 @@ header:
   #     url: "https://uscgamesexpo.com/game"
 
 gallery:
-  - image_path: /assets/images/isolatedIsland/clip1.png
-  - image_path: /assets/images/isolatedIsland/clip2.png
+  - image_path: /assets/images/IsolatedIsland/clip1.png
+  - image_path: /assets/images/IsolatedIsland/clip2.png
 
 gallery2:
-  - image_path: /assets/images/isolatedIsland/clip3.png
-  - image_path: /assets/images/isolatedIsland/clip4.png
+  - image_path: /assets/images/IsolatedIsland/clip3.png
+  - image_path: /assets/images/IsolatedIsland/clip4.png
 
 ---
 ## Intro

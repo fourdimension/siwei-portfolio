@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Siwei Wang
+email: fdimensionwang@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+twitter_username: 
+github_username: fourdimension
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -35,7 +35,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-
+github : [metadata]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -58,34 +58,39 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name             : "Siwei Wang"
+  avatar           : "/assets/images/profile-Photo.jpg"
+  bio              : ""
+  location         : "Los Angeles, US"
+  email            : "fdimensionwang@gmail.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      #url: "https://"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/siwei-wang-b0641a1b2/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      #url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: https://github.com/fourdimension"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      #url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      #url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      #url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      #url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -106,6 +111,30 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _game
+  - scope:
+      path: ""
+      type: game
+    values:
+      layout: single
+      author_profile: false
+      share: false
+  # _shader
+  - scope:
+      path: ""
+      type: shader
+    values:
+      layout: single
+      author_profile: false
+      share: false
+  
+collections:
+  game:
+    output: true
+    permalink: /:collection/:path/
+  shader:
+    output: true
+    permalink: /:collection/:path/
 
 category_archive:
   type: liquid

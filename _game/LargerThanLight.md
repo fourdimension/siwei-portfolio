@@ -3,29 +3,29 @@ title: "Larger Than Light"
 excerpt: "A narrative-puzzle game where you traverse shadows by manipulating light"
 number: 2
 header:
-  overlay_image: /assets/images/game_largerThanLight.jpg
+  overlay_image: /assets/images/game_LargerThanLight.jpg
   overlay_filter: 0.5
-  teaser: /assets/images/game_largerThanLight.jpg
+  teaser: /assets/images/game_LargerThanLight.jpg
   actions:
     - label: "More Info"
       url: "https://1010meha.wixsite.com/largerthanlight"
 
 gallery:
-  - image_path: /assets/images/largerThanLight/gameplay1.jpg
+  - image_path: /assets/images/LargerThanLight/gameplay1.jpg
 
 gallery2:
-  - url: /assets/images/largerThanLight/gif_character1.gif
-    image_path: /assets/images/largerThanLight/gif_character1.gif
-  - url: /assets/images/largerThanLight/gif_character2.gif
-    image_path: /assets/images/largerThanLight/gif_character2.gif
+  - url: /assets/images/LargerThanLight/gif_character1.gif
+    image_path: /assets/images/LargerThanLight/gif_character1.gif
+  - url: /assets/images/LargerThanLight/gif_character2.gif
+    image_path: /assets/images/LargerThanLight/gif_character2.gif
 
 gallery3:
-  - url: /assets/images/largerThanLight/gif1.gif
-    image_path: /assets/images/largerThanLight/gif1.gif
-  - url: /assets/images/largerThanLight/gif2.gif
-    image_path: /assets/images/largerThanLight/gif2.gif
-  - url: /assets/images/largerThanLight/gif3.gif
-    image_path: /assets/images/largerThanLight/gif3.gif
+  - url: /assets/images/LargerThanLight/gif1.gif
+    image_path: /assets/images/LargerThanLight/gif1.gif
+  - url: /assets/images/LargerThanLight/gif2.gif
+    image_path: /assets/images/LargerThanLight/gif2.gif
+  - url: /assets/images/LargerThanLight/gif3.gif
+    image_path: /assets/images/LargerThanLight/gif3.gif
 ---
 ## Intro
 From Januray - May 2021, I joined the Larger Than Light team to work as a game developer. It is a narrative 
